@@ -1,0 +1,27 @@
+html{20px
+}
+
+main{
+    width: 80%;
+    background-color: #73F08C;
+    background: linear-gradient(45deg, yellow, white);
+    color: #524518;
+    min-height: 100vh;
+    margin: auto;
+} 
+h1{
+    text-align: center;
+   padding-bottom: 2em;
+   padding-right: 2em;
+   
+}
+h2{
+   border-bottom: 10px groove blue;
+   margin-bottom: 1em;
+}
+
+p{
+    font: 2rem;
+    border-right: 10px groove red;
+    border-left: 10px groove red;
+}
