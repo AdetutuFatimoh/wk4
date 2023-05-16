@@ -16,4 +16,13 @@ section{
     background-color: green;
     background: linear-gradient(180deg, red 30%, white 30%, white 35%, blue 35%, blue 65%, white 65%, white 70%, green 70%);
     margin: auto;
+    margin-bottom: 50px;
+}
+
+article{
+    width: 50%;
+    height: 600px;
+    background-color: green;
+    background: linear-gradient(90deg, blue 35%, white 35%, white 65%, red 65%);
+    margin: auto;
 }
