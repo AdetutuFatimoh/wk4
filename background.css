@@ -25,4 +25,14 @@ article{
     background-color: green;
     background: linear-gradient(90deg, blue 35%, white 35%, white 65%, red 65%);
     margin: auto;
+    margin-bottom: 50px;
+}
+
+h2{
+    width: 50%;
+    height: 600px;
+    background-color: black;
+    margin: auto;
+    background-image: radial-gradient(circle, red 30%, white 10%);
+}
 }
