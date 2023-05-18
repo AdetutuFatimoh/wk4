@@ -1,12 +1,42 @@
+
 body{
     background-color: aqua;
 }
-div{
+.ghana{
+    width: 500px;
+    height: 400px;
+    margin: auto;
+    background-image: url(./ghana-png.png),linear-gradient(180deg,red 30%, yellow 30%, yellow 65%, green 65%);;
+    background-position: center;
+    background-size: 200px, 500px;
+    background-repeat: no-repeat;
+}
+.Online{
+    width: 700px;
+    height: 400px;
+    background-image: url(./ghana-png.png), url(https://images.unsplash.com/photo-1684346819395-d262db722276?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=388&q=80), 
+    url(https://images.unsplash.com/photo-1680459575585-390ed5cfcae0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80), 
+    linear-gradient(90deg, blue, green, yellow);
+    background-size: 250px, 150px;
+    background-position: center, top left, bottom right;
+    background-repeat: no-repeat, no-repeat, no-repeat, repeat;
+}
+.bel{
     width: 50%;
     height: 600px;
     background: linear-gradient(90deg, black 30%, yellow 30%, yellow 65%, red 65%);
     margin: auto;
     margin-bottom: 50px;
+}
+.image{
+    width: 700px;
+    height: 400px;
+    background: url(./RIRI.jpg);
+    background-size: cover;
+    color: transparent;
+    font-size: 4em;
+    -webkit-background-clip: text;
+    text-align: center;
 }
 
 div.gambia{
@@ -30,4 +60,29 @@ div.japan{
     height: 600px;
     margin: auto;
     background-image: radial-gradient(circle, red 30%, white 10%);
+}
+
+.conic{
+   text-transform: uppercase;
+    font-size: 4em; 
+    text-align: center;
+    width: 700px;
+    height: 400px;
+    margin-top: 30px;
+    color: transparent;
+    background: conic-gradient(red 30%, purple 30%, purple 10%, yellow 30%, yellow 60%, black 60%, black 30%, violet 20%, violet 40%, orange 30%, orange 50%, green 40%);
+    -webkit-background-clip: text;
+}
+.blend{
+    width: 700px;
+    height: 400px;
+    background-color: green;
+    background-size: cover;
+    background-image: url(./chimam.webp);
+    background-color: rgb(red, green, blue);
+}
+
+.blend:hover{
+    background-blend-mode: overlay;
+    cursor: pointer;
 }
