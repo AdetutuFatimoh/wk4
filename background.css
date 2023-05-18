@@ -4,35 +4,30 @@ body{
 div{
     width: 50%;
     height: 600px;
-    background-color: green;
     background: linear-gradient(90deg, black 30%, yellow 30%, yellow 65%, red 65%);
     margin: auto;
     margin-bottom: 50px;
 }
 
-section{
+div.gambia{
     width: 50%;
     height: 600px;
-    background-color: green;
     background: linear-gradient(180deg, red 30%, white 30%, white 35%, blue 35%, blue 65%, white 65%, white 70%, green 70%);
     margin: auto;
     margin-bottom: 50px;
 }
 
-article{
+div.france{
     width: 50%;
     height: 600px;
-    background-color: green;
     background: linear-gradient(90deg, blue 35%, white 35%, white 65%, red 65%);
     margin: auto;
     margin-bottom: 50px;
 }
 
-h2{
+div.japan{
     width: 50%;
     height: 600px;
-    background-color: black;
     margin: auto;
     background-image: radial-gradient(circle, red 30%, white 10%);
-}
 }
